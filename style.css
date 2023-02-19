@@ -1,0 +1,718 @@
+@font-face {
+    font-family: Netflix;
+    src: url(Fonts/NetflixSans-Regular.otf);
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* First Page Style */
+
+.background-img{
+    width: 100%;
+    height: 98vh;
+    background-image: url('Images/Netfilx\ Background\ img.jpg');
+}
+.bg-style-img{
+    background: rgb(0 0 0 / 40%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+.main{
+    width: 100wh;
+    height: 80vh;
+    background-color: black;
+}
+
+#main{
+    width: 100wh;
+    height: auto;
+    padding: 30px 0px;
+    background-color: black;
+}
+
+#logo{
+    padding: 20px;
+    width: auto;
+    height: 40px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 70px;
+}
+.language-hide{
+    display: none;
+    font-family: Netflix;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    padding: 4px 12px;
+    border: 0.3px solid gray;
+    margin-right: 12px;
+    border-radius: 5px;
+    background-color: black;
+}
+.sign-in-btn{
+    font-family: Netflix;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    padding: 4px 16px;
+    border: 1px solid #E50914;
+    background-color: #E50914;
+    border-radius: 5px;
+}
+.language{
+    font-family: Netflix;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    padding: 4px 12px;
+    border: 0.3px solid gray;
+    margin-right: 12px;
+    border-radius: 5px;
+    background-color: black;
+}
+.middle-text{
+    font-family: Netflix;
+    font-size: 49px;
+    font-weight: 900;
+    font-style: bold;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+.middle-text-2{
+    font-family: Netflix;
+    font-size: 24px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.middle-text-3{
+    font-family: Netflix;
+    font-size: 18px;
+    font-family: 100;
+    color: white;
+    text-align: center;
+
+}
+#Input-tag{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-box{
+    width: 340px;
+    height: 35px;
+    background-color: #00000094;
+    padding: 7px;
+    border: 2px solid grey;
+    border-radius: 5px 0px 0px 5px; 
+}
+
+.get-started-btn{
+    width: 150px;
+    height: 35px;
+    font-family: Netflix;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    background-color: #E50914;
+    padding: 9px 14px;
+    border-radius: 0px 5px 5px 0px;
+}
+hr{
+    margin-bottom: 0%;
+    background-color: rgba(35,35,35,255);
+}
+
+/* Second Page Style */
+
+.enjoy{
+    font-family: Netflix;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px;
+    font-style: bold;
+    color: white;  
+}
+.wacth{
+    font-family: Netflix;
+    font-size: 22px;
+    font-weight: 200;
+    margin-left: 25px;
+    color: white;
+}
+.Sec-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TV-img img{
+    width: auto;
+    height: 28vw;
+    margin-top: 50px;
+}
+
+/* middle line style */
+
+.line{
+    width: 100%;
+    height: 1.6%;
+    background-color: rgba(35,35,35,255);
+}
+#line{
+    width: 100%;
+    height: 12px;
+    background-color: rgba(35,35,35,255);
+}
+
+/* Third Page Style */
+
+.third-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-page-img img{
+    width: auto;
+    height: 29vw;
+}
+.third-page-text-hide{
+    display: none;
+}
+
+/* Fourth Page style */
+
+.fourth-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-page-img img{
+    width: auto;
+    height: 28vw;
+    margin-top: 60px
+}
+
+/* Fith Page Style */
+
+.fith-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fith-page-img img{
+    width: auto;
+    height: 28vw;
+    margin-top: 60px;
+    border: none;
+}
+.fith-page-text-hide{
+    display: none;
+}
+
+/* Sixth Page style */
+
+.question{
+    font-family: Netflix;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    font-style: bold;
+    color: white;
+    margin-top: 24px;
+    padding: 20px;
+}
+.question-ans{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+}
+.q-a-text{
+    background-color: rgba(35,35,35,255);
+    color: white;
+    font-family: Netflix;
+    font-size: 22px;
+    font-weight: 200;
+    padding: 24px;
+    width: 60vw;
+    margin: 5px 0px;
+}
+.Plus-icon{
+    width: auto;
+    height: 40px;
+    float: right;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+#Plus-icon{
+    width: auto;
+    height: 40px;
+    float: right;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+#Plus-icon-1{
+    width: auto;
+    height: 40px;
+    float: right;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+#Plus-icon-2{
+    width: auto;
+    height: 40px;
+    float: right;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+#Plus-icon-3{
+    width: auto;
+    height: 40px;
+    float: right;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+#Plus-icon-4{
+    width: auto;
+    height: 40px;
+    float: right;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+#Plus-icon-5{
+    width: auto;
+    height: 40px;
+    float: right;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+#cross-icon{
+    width: auto;
+    height: 40px;
+    float: right;
+    margin-bottom: 4px;
+    cursor: pointer;
+    display: none;
+}
+#cross-icon-1{
+    width: auto;
+    height: 40px;
+    float: right;
+    margin-bottom: 4px;
+    cursor: pointer;
+    display: none;
+}
+#cross-icon-2{
+    width: auto;
+    height: 40px;
+    float: right;
+    margin-bottom: 4px;
+    cursor: pointer;
+    display: none;
+}
+#cross-icon-3{
+    width: auto;
+    height: 40px;
+    float: right;
+    margin-bottom: 4px;
+    cursor: pointer;
+    display: none;
+}
+#cross-icon-4{
+    width: auto;
+    height: 40px;
+    float: right;
+    margin-bottom: 4px;
+    cursor: pointer;
+    display: none;
+}
+#cross-icon-5{
+    width: auto;
+    height: 40px;
+    float: right;
+    margin-bottom: 4px;
+    cursor: pointer;
+    display: none;
+}
+.content{
+    background-color: rgba(35,35,35,255);
+    color: white;
+    font-family: Netflix;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 24px;
+    width: 60vw;
+    margin: 0px 0px;
+    display: none;
+}
+.small-line{
+    background-color: black;
+    width: 900px;
+    height: 1.5px;
+}
+.space-bet{
+    background-color: black;
+    width: 900px;
+    height: 1.5vh;
+}
+
+.ready-watch{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;
+    margin: 0px 30px;
+}
+
+.ready-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Netflix;
+    font-size: 22px;
+    font-weight: 200;
+    margin-top: 15px;
+    padding-top: 18px;
+    color: white;
+}
+#Input-tag-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+/* Footer style */
+
+#main-last{
+    width: 100wh;
+    height: 45vh;
+    background-color: black;
+}
+#line-last{
+    width: auto;
+    height: 11px;
+    background-color: rgba(35,35,35,255);
+}
+.footer-text{
+    font-family: Netflix;
+    font-size: 15px;
+    font-weight: 100;
+    color: #b3b3b3;
+    margin: 10px 20px;
+}
+.a-tag-style{
+    text-decoration: none;
+    font-family: Netflix;
+    font-size: 15px;
+    font-weight: 100;
+    color: #b3b3b3;
+}
+.a-tag-style:hover{
+    color: #E50914;
+}
+.footer li{
+    margin: 5px 0px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#copy-right{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: Netflix;
+    color: #b3b3b3;
+}
+.footer-main-div{
+    display: grid;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 1489px){
+    .Sec-page{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
+    }
+    .third-page{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
+    }
+    .fourth-page{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
+    }
+    .fith-page{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
+    }
+    
+}
+@media screen and (max-width: 960px) {
+    .main{
+        height: 75vh;
+    }
+    .Sec-page{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .sec-page-text{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .TV-img img{
+        height: 400px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .third-page-text-hide{
+        display: block;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .third-page-text{
+        display: none
+    }
+    .third-page{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .third-page-img img{
+        height: 400px;
+        margin-bottom: 30px;
+    }
+
+    .fourth-page{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .fourth-page-text{
+        display: block;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .fourth-page-img img{
+        height: 400px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .fith-page-text-hide{
+        display: block;
+        display: block;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .fith-page-text{
+        display: none;
+    }
+    .fith-page{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .fith-page-img img{
+        height: 400px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 658px){
+    .email-box{
+        width: 210px;
+    }
+    .get-started-btn{
+        font-size: 17px;
+        font-weight: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+    }
+    .q-a-text{
+        width: 80vw;
+    }
+    .content{
+        width: 80vw;
+    }
+    .middle-text{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 596px){
+    .TV-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .TV-img img{
+        height: 60vw;
+    }
+    .third-page-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .third-page-img img{
+        height: 60vw;
+    }
+    .fourth-page-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fourth-page-img img{
+        height: 60vw;
+    }
+    .fith-page-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fith-page-img img{
+        height: 60vw;
+    }
+    .page-heading{
+        font-size: 35px;
+    }
+    .page-text{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 468px){
+    .page-heading{
+        font-size: 29px;
+    }
+    .page-text{
+        font-size: 17px;
+    }
+    .middle-text{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 434px){
+    #Input-tag-1{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .email-box{
+        width: 80vw;
+        border-radius: 4px;
+    }
+    .get-started-btn{
+        width: 77vw;
+        border-radius: 4px;
+    }
+    .email-box-main{
+        width: 45vw;
+        border-radius: 4px 0px 0px 4px;
+    }
+    .get-started-main{
+        width: 35vw;
+        border-radius: 0px 4px 4px 0px;
+    }
+}
+@media screen and (max-width: 490px){
+    .footer{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 566px) {
+    .language-hide{
+        display: inline-block;
+        width: 75px;
+    }
+    .language{
+        display: none;
+    }
+    .header{
+        margin: 5px 20px;
+    }
+}
+@media screen and (max-width: 566px){
+    #logo{
+        height: 30px;
+    }
+    .sign-in-btn{
+        font-size: 13px;
+    }
+    .language-hide{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 358px){
+    #logo{
+        height: 23px;
+    }
+}
+@media screen and (max-width: 332px){
+    .header{
+        margin: 5px 0px;
+    }
+}
+
+@media screen and (max-width: 412px){
+    .q-a-text{
+        width: 65vw;
+        padding: 14px;
+        font-size: 17px;
+    }
+    .content{
+        width: 59vw;
+    }
+}
